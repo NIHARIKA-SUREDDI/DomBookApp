@@ -30,4 +30,28 @@ catch(err){
     alert("something went wrong");
 
 }
+
 });
+function displayData(ele){
+    let cont =document.getElementById("cont")
+    cont.innerHTML=" ";
+ele.map((obj,i)=>{
+    let card=document.createElement("div")
+    let title=document.createElement("h3")
+    title.textContent=`{obj.title}`;
+   let author=document.createElement("h3")
+    author.textContent=`{obj.author}`;
+    let category=document.createElement("h3")
+    category.textContent=`{obj.title}`;
+
+
+});
+card.append(
+    title,
+    author,
+    category,
+);
+cont.append(card);
+
+
+}
