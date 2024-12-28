@@ -7,4 +7,5 @@ const navbar=`
     </div>
     `;
     document.getElementById("nav").innerHTML=navbar;
-
+    
+navbar();
