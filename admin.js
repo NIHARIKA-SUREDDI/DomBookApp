@@ -53,5 +53,19 @@ card.append(
 );
 cont.append(card);
 
+let verifybutton =document .createElement("button");
+verifybutton.textContent="verifyBook";
+verifybutton.addEventListener("click", function(){
+    
+});
+
+
+
+let deletebutton =document .createElement("button");
+deletebutton.textContent="deleteBook";
+deletebutton.addEventListener("click", function(){
+    
+})
+
 
 }
