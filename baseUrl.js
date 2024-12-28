@@ -1,0 +1,1 @@
+export const baseUrl="https://nutritious-holistic-burst.glitch.me/";
