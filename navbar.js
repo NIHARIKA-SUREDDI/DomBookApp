@@ -6,4 +6,4 @@ const navbar=()=>{
     </div>`;
     document.getElementById("nav").innerHTML=card;
 };
-navbar()
+navbar();
